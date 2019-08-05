@@ -1,0 +1,102 @@
+Error list, First Printing of 
+   Data Structures and Algorithm Analysis in C (Second Edition)
+
+Page 107:
+     In Figure 4.25, change  Left to Right on the line
+     T->Right = Delete( X, T->Left );
+
+Page 211:
+     In the IsEmpty block, the return statement should
+     return -Infinity, not H.
+
+Page 247:
+     Remove "insertion" from caption in Figure 7.17.
+
+Page 252:
+     Next to last figure, change 51 to 41.
+
+Page 258:
+     In Exercise 7.19 (b), change "nondisinct" to "distinct".
+
+In chapter 8 (and the index):
+     Ackerman is misspelled.  It should be Ackermann.
+
+Page 288:
+     In Figure 9.5, change FindNewVertexOfDegreeZero to
+     FindNewVertexOfIndegreeZero.
+
+Page 371:
+     In Figure 10.33, change "coordinates differ" to "y-coordinates differ"
+
+Page 391:
+     In Figure 10.53, remove the word const from the first parameter.
+     Logically it makes sense, but because of an obscure C rule,
+     some arguments of type TwoDimArray would not be acceptable as a parameter.
+
+
+Error list, Second Printing
+
+Many of the .h specs are missing a #define immediately after the #ifndef.
+I've fixed this in the online code.
+
+Page 7:
+     Last equation is missing i^2 after summation symbol.
+
+Page 65: In Figure 3.41 (fixed in online code)
+     Prior to the call to MakeEmpty, need S->Next=NULL;
+
+Page 68: Line -4, change "four" to "five".
+
+Page 79: Figure 3.56
+     Enqueue needs an additional parameter X.
+
+Page 93: In Figure 4.7, change entries of the form
+     chr?.c to ch?.r
+
+Page 111: Change .328 to 1.328
+
+Page 134 and 135:
+     In many of the 2-3 trees, the middle link from 41:58 is missing.
+
+Page 181:
+     Figure labelled 6.4 should be 6.4a.
+
+Page 181:
+     Figure 6.5: right tree should have 6 in node that contains 24.
+
+Page 183:
+     In caption of Figure 6.8, change key to heap.
+
+Page 209:
+     Change "binary queues" to "binomial queues"
+
+Page 237:
+     There is a missing ( before Left+Right 4 lines prior to Section 7.7.2.
+
+Page 255:
+     In Figure 7.18, change 75 to 15, everywhere.
+
+Page 287:
+     In Figure 9.4, reverse the arrows so the edges are (v1,v3) and (v5,v4).
+
+Page 288:
+     Change "all edges adjacent to v have their indegrees decremented" to
+     Change "all vertices adjacent to v have their indegrees decremented"
+
+Page 417:
+     Exercise 10.38, replace "random" with "rand"
+
+Page 421:
+     Exercise 10.55, in the example, change "txtborkk" to 
+     "txtborpk" and delete "p" instead of "k"
+
+Page 453:
+     In last line remove (as shown in Chapter 4).
+
+Page 479:
+     In Figure 12.33, the link from node 40 to 45 should be
+     from node 50 to 45.
+
+Page 483:
+     When T is logically a leaf, it is rotated with the RIGHT
+     child, not the left. The rest of the paragraph, and the code is correct.
